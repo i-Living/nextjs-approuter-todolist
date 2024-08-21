@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "123",
+      "text": "Hello world",
+      "isActive": true
+    },
+    {
+      "id": "1234",
+      "text": "Hello world 2",
+      "isActive": true
+    },
+    {
+      "id": "12345",
+      "text": "Hello world 3",
+      "isActive": false
+    },
+    {
+      "id": "71430882-28ed-4702-907c-e1b1d8464cdf",
+      "text": "qwe",
+      "isActive": true
+    }
+  ]
+}
