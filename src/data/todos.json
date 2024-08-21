@@ -1,24 +1,19 @@
 {
   "tasks": [
     {
-      "id": "123",
-      "text": "Hello world",
+      "id": "4ad932be-c735-4e19-b996-6384bad8c89e",
+      "text": "First todo",
       "isActive": true
     },
     {
-      "id": "1234",
-      "text": "Hello world 2",
+      "id": "df60b565-45b4-44d1-b1dd-efae6d3de4a2",
+      "text": "Second todo",
       "isActive": true
     },
     {
-      "id": "12345",
-      "text": "Hello world 3",
+      "id": "f077fda8-9634-46a8-af1d-2e1d87f4a1b5",
+      "text": "Done todo",
       "isActive": false
-    },
-    {
-      "id": "71430882-28ed-4702-907c-e1b1d8464cdf",
-      "text": "qwe",
-      "isActive": true
     }
   ]
 }
