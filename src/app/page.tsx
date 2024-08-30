@@ -1,12 +1,12 @@
-'use client'
+'use server'
 
 import React from 'react'
 import TextInput from './components/TextInput'
 import TaskList from './components/TaskList'
-import { useTasks } from './hooks/useTasks'
+import { getAllTasks } from './api'
 
-export default function Page() {
-  const { tasks } = useTasks()
+export default async function Page() {
+  const tasks = await getAllTasks()
 
   return (
     <div className="flex flex-col items-center min-w-96 w-full p-10">

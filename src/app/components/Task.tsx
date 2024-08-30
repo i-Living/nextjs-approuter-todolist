@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
 import ButtonDelete from './ButtonDelete'
 import clsx from 'clsx/lite'
-import { useTasks } from '../hooks/useTasks'
+import { deleteTask, updateTask } from '../actions'
 
 export interface ITask {
   id: string
@@ -10,7 +12,6 @@ export interface ITask {
 }
 
 export default function Task({ id, isActive, text }: ITask) {
-  const { deleteTask, updateTask } = useTasks()
   const onDeleteClick = () => {
     deleteTask(id)
   }
